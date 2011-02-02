@@ -1,0 +1,30 @@
+#summary One-sentence summary of this page.
+
+= Install & Use Qimsys on Nokia N900 (Maemo 5) Environment =
+
+== Install ==
+
+You can install binary package of qimsys from [http://wiki.maemo.org/Extras-devel#How_to_activate_Extras-devel/ Extras-devel] repository.
+
+Launch App. Manager, install "qimsys-meta-japanese." or each package manually.
+
+You may have to reboot N900 once. It's better to do so.
+
+== How to use ==
+
+Launch qimsys by tap qimsys icon in Applicatoin Menu or just type "qimsys" on terminal.
+
+If you want to use qimsys one time, launch app on terminal with environment variables.
+
+# QT_IM_MODULE=qimsys /usr/bin/qwassr
+
+If you want to use qimsys system-widely, edit ~/.profile as following.
+
+GTK_IM_MODULE=qimsys
+QT_IM_MODULE=qimsys
+
+Reboot your N900 to enable this setting and launch qimsys.
+
+==Settings==
+
+You can change settings of qimsys from status-menu of N900, IMengine, Input character, etc...
