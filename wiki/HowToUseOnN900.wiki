@@ -16,15 +16,17 @@ Launch qimsys by tap qimsys icon in Applicatoin Menu or just type "qimsys" on te
 
 If you want to use qimsys one time, launch app on terminal with environment variables.
 
-$ QT_IM_MODULE=qimsys /usr/bin/qwassr
+`$QT_IM_MODULE=qimsys /usr/bin/qwassr`
 
 If you want to use qimsys system-widely, edit ~/.profile as following.
 
+{{{
 GTK_IM_MODULE=qimsys
 QT_IM_MODULE=qimsys
+}}}
 
 Reboot your N900 to enable this setting and launch qimsys.
 
 ==Settings==
 
-You can change settings of qimsys from status-menu of N900, IMengine, Input character, etc...
+You can set qimsys settings of qimsys by tapping qimsys menu on status-menu, IMengine, Input character, etc...
