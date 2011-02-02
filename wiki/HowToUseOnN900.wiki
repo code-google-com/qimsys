@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#How to install & use qimsys on Nokia N900
 
 = Install & Use Qimsys on Nokia N900 (Maemo 5) Environment =
 
@@ -16,7 +16,7 @@ Launch qimsys by tap qimsys icon in Applicatoin Menu or just type "qimsys" on te
 
 If you want to use qimsys one time, launch app on terminal with environment variables.
 
-# QT_IM_MODULE=qimsys /usr/bin/qwassr
+$ QT_IM_MODULE=qimsys /usr/bin/qwassr
 
 If you want to use qimsys system-widely, edit ~/.profile as following.
 
