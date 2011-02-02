@@ -16,6 +16,8 @@ Launch qimsys by tap qimsys icon in Applicatoin Menu or just type "qimsys" on te
 
 If you want to use qimsys one time, launch app on terminal with environment variables.
 
+e.g. use qimsys on [http://kimitakeblog.net/qwassr qwassr]
+
 `$QT_IM_MODULE=qimsys /usr/bin/qwassr`
 
 If you want to use qimsys system-widely, edit ~/.profile as following.
