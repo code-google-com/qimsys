@@ -21,8 +21,8 @@ If you want to use qimsys one time, launch app on terminal with environment vari
 If you want to use qimsys system-widely, edit ~/.profile as following.
 
 {{{
-GTK_IM_MODULE=qimsys
-QT_IM_MODULE=qimsys
+export GTK_IM_MODULE=qimsys
+export QT_IM_MODULE=qimsys
 }}}
 
 Reboot your N900 to enable this setting and launch qimsys.
