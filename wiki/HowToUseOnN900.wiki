@@ -12,9 +12,41 @@ You may have to reboot N900 once. It's better to do so.
 
 == How to use ==
 
+=== Easy way ( as easier as possible) ===
+
+1. If you have these lines in ~/.profile or other file by manual, remove them from the file.
+
+{{{
+export GTK_IM_MODULE=xxx
+export QT_IM_MODULE=xxx
+}}}
+
+"xxx" is an IM name.
+
+2. from terminal, launch "imswitch"
+
+`$/usr/bin/imswitch`
+
+3. set IM as you like, for GTK+ and Qt.
+
+4. Reboot your N900
+
+5. launch qimsys from App menu or terminal, and type Japanese on your app!
+
+_*Tips* ---
+_If you have issue on setting IM for Qt, check permission or owner information of ~/.config/Trolltech.conf. It's owner must be "user" and writable, not root._
+_Some Qt apps(like Faster App Manager) requires root permission for exec, so if there isn't Trolltech.conf on the system, they create it newly with root ownership._
+
+
+
+
+
+
+=== Expert way (like to manage all by yourself) ===
+
 Launch qimsys by tap qimsys icon in Applicatoin Menu or just type "qimsys" on terminal.
 
-If you want to use qimsys one time, launch app on terminal with environment variables.
+If you want to use qimsys one time, launch app on terminal with environment variawbles.
 
 e.g. use qimsys on [http://wiki.kimitakeblog.net/doku.php?id=qwassr qwassr] , a wonderful Twitter/Wassr client:-)
 
@@ -28,6 +60,8 @@ export QT_IM_MODULE=qimsys
 }}}
 
 Reboot your N900 to enable this setting and launch qimsys.
+
+_*Known issue* --- Can't input Japanese on Anthy dic tool with expert way:-( now investigating (kenya888)_
 
 ==Settings==
 
