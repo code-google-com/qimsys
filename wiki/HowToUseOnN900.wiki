@@ -17,11 +17,11 @@ You may have to reboot N900 once. It's better to do so.
 1. If you have these lines in ~/.profile or other file by manual, remove them from the file.
 
 {{{
-export GTK_IM_MODULE=xxx
-export QT_IM_MODULE=xxx
+export GTK_IM_MODULE=xyz
+export QT_IM_MODULE=xyz
 }}}
 
-"xxx" is an IM name.
+"xyz" is an IM name.
 
 2. from terminal, launch "imswitch"
 
