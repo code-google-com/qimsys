@@ -25,11 +25,19 @@ export QT_IM_MODULE=xxx
 
 2. from terminal, launch "imswitch"
 
-`$/usr/bin/imswitch`
+`$/usr/bin/imswitch` them from the file.
 
-3. set IM as you like, for GTK+ and Qt.
+export GTK_IM_MODULE=xxx
+export QT_IM_MODULE=xxx
+"xxx" is an IM name.
 
-4. Reboot your N900
+2. from terminal, launch "imswitch"
+
+$/usr/bin/imswitch
+
+3. set IM to "*Qt Input Method System(qimsys)*" as you like, for GTK+ and Qt. 
+
+4. Press "Done" and Reboot your N900
 
 5. launch qimsys from App menu or terminal, and type Japanese on your app!
 
