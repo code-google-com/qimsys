@@ -23,18 +23,18 @@ export QT_IM_MODULE=scim-bridge
 
 "scim-bridge" is the IM name that you set (e.g. ibus, qimsys, scim, hildon-input-method)
 
-2. from terminal, launch "imswitch"
+2. From terminal, launch "imswitch"
 
 $/usr/bin/imswitch
 
-3. set IM to "*Qt Input Method System(qimsys)*" as you like, for GTK+ and Qt. 
+3. Set IM to "*Qt Input Method System(qimsys)*" as you like, for GTK+ and Qt. 
 
 4. Press "Done" and Reboot your N900
 
-5. launch qimsys from App menu or terminal, and type Japanese on your app!
+5. Launch qimsys from App menu or terminal, and type Japanese on your app!
 
 _*Tips* ---
-_If you have issue on setting IM for Qt, check permission or owner information of ~/.config/Trolltech.conf. It's owner must be "user" and writable, not root._
+_If you have issue on setting IM for Qt, check permission and owner information of ~/.config/Trolltech.conf. Its owner must be "user" and writable, not root._
 _Some Qt apps(like Faster App Manager) requires root permission for exec, so if there isn't Trolltech.conf on the system, they create it newly with root ownership._
 
 
