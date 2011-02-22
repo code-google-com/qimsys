@@ -6,7 +6,7 @@ If you don't know layman, see [http://www.gentoo.org/proj/en/overlays/userguide.
 
  # add the line below to "overlays" stanza of /etc/layman/layman.cfg
 {{{
-"http://gitorious.org/kenya888s-overlay/kenya888s-overlay/blobs/master/overlays.xml"
+"http://gitorious.org/kenya888s-overlay/kenya888s-overlay/blobs/raw/master/overlays.xml"
 }}}
  # add overlay to your local portage.
 {{{
