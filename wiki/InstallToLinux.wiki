@@ -1,6 +1,6 @@
 How to install qimsys to Linux. 
 
-== For any distribution ==
+== For all distributions ==
 
 See [http://code.google.com/p/qimsys/wiki/InstallFromSource Install From source].
 
