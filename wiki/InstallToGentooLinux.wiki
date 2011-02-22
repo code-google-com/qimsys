@@ -10,16 +10,16 @@ If you don't know layman, see [http://www.gentoo.org/proj/en/overlays/userguide.
 }}}
  # add overlay to your local portage.
 {{{
-#layman -a kenya888s-overlay
+# layman -a kenya888s-overlay
 }}}
  # Update portage/eix cache
 {{{
-#emerge --metadata
-#eix-update (If you use eix)
+# emerge --metadata
+# eix-update (If you use eix)
 }}}
  # install qimsys
 {{{
-#emerge -av qimsys
+# emerge -av qimsys
 }}}
 
 Enjoy!:)
