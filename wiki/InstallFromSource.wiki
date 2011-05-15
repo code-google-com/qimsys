@@ -46,4 +46,4 @@ export QT_IM_MODULE=qimsys
 export GTK_IM_MODULE=qimsys
 }}}
 
-You may need reboot or relogin.
+You may need reboot or relogin after the setup.
