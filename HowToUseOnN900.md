@@ -1,0 +1,66 @@
+#How to install & use qimsys on Nokia N900
+
+# Install & Use Qimsys on Nokia N900 (Maemo 5) Environment #
+
+## Install ##
+
+You can install binary package of qimsys from [Extras-devel](http://wiki.maemo.org/Extras-devel#How_to_activate_Extras-devel/) repository.
+
+Launch App. Manager, install "qimsys-meta-japanese." or each package manually.
+
+You may have to reboot N900 once. It's better to do so.
+
+## How to use ##
+
+### Easy way ( as easier as possible) ###
+
+1. If you have these lines in ~/.profile or other file by manual, remove them from the file.
+
+```
+export GTK_IM_MODULE=scim-bridge
+export QT_IM_MODULE=scim-bridge
+```
+
+"scim-bridge" is the IM name that you set (e.g. ibus, qimsys, scim, hildon-input-method)
+
+2. From terminal, launch "imswitch"
+
+$/usr/bin/imswitch
+
+3. Set IM to "**Qt Input Method System(qimsys)**" as you like, for GTK+ and Qt.
+
+4. Press "Done" and Reboot your N900
+
+5. Launch qimsys from App menu or terminal, and type Japanese on your app!
+
+_**Tips** ---_If you have issue on setting IM for Qt, check permission and owner information of ~/.config/Trolltech.conf. Its owner must be "user" and writable, not root.Some Qt apps(like Faster App Manager) requires root permission for exec, so if there isn't Trolltech.conf on the system, they create it newly with root ownership.
+
+
+
+
+
+
+### Expert way (like to manage all by yourself) ###
+
+Launch qimsys by tap qimsys icon in Applicatoin Menu or just type "qimsys" on terminal.
+
+If you want to use qimsys one time, launch app on terminal with environment variawbles.
+
+e.g. use qimsys on [qwassr](http://wiki.kimitakeblog.net/doku.php?id=qwassr) , a wonderful Twitter/Wassr client:-)
+
+`$QT_IM_MODULE=qimsys /usr/bin/qwassr`
+
+If you want to use qimsys system-widely, edit ~/.profile as following.
+
+```
+export GTK_IM_MODULE=qimsys
+export QT_IM_MODULE=qimsys
+```
+
+Reboot your N900 to enable this setting and launch qimsys.
+
+_**Known issue** --- Can't input Japanese on Anthy dic tool with expert way:-( now investigating (kenya888)_
+
+## Settings ##
+
+You can set qimsys settings of qimsys by tapping qimsys menu on status-menu, IMengine, Input character, etc...

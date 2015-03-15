@@ -1,0 +1,5 @@
+qimsys 0.2.0 is released Feb. 24 2010.
+
+  * Add support for Nokia N900
+  * Core APIs are refactored
+  * Fix a lot of issues reported
